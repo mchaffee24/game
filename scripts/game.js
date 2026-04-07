@@ -193,9 +193,7 @@ function resetGame() {
     matches = 0;
     resetTurn();
     updateScoreDisplay();
-  
-    gameMessage.classList.add("d-none"); // hide message
-  
+    gameMessage.classList.add("d-none");
     buildDeck();
     renderBoard();
   }
